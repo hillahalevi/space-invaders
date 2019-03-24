@@ -1,0 +1,12 @@
+# default values for blocks
+default height:28 width:50 hit_points:3
+
+# block definitions
+bdef symbol:0 fill:image(block_images/0.0.png) fill-1:image(block_images/0.1.png)
+bdef symbol:1 fill:image(block_images/1.0.png) fill-1:image(block_images/1.1.png)
+bdef symbol:2 fill:image(block_images/2.0.png)  fill-1:image(block_images/2.1.png)
+bdef symbol:e height:30 width:40 hit_points:1 fill:image(block_images/enemy.png)
+
+
+# spacers definitions
+sdef symbol:- width:10

@@ -1,0 +1,36 @@
+
+# Level 1
+# Single block direct hit
+
+
+START_LEVEL
+level_name:Space Time
+ball_velocities:1,45
+background:color(black)
+paddle_speed:650
+paddle_width:80
+block_definitions:definitions/space_block_definitinons.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:50
+START_BLOCKS
+--e-e-e-e-e-e-e-e-e-e
+-
+--e-e-e-e-e-e-e-e-e-e
+-
+--e-e-e-e-e-e-e-e-e-e
+-
+--e-e-e-e-e-e-e-e-e-e
+-
+--e-e-e-e-e-e-e-e-e-e
+-
+-
+-
+-
+-
+-
+---012------------012------------012
+---111------------111------------111
+END_BLOCKS
+END_LEVEL
